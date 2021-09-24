@@ -1,0 +1,20 @@
+.layout {
+    display: grid;
+    grid-template-columns: 28.6875rem 1fr;
+    grid-template-rows: 43rem 5rem;
+    grid-template-areas: "side main" "footer footer" ;
+    
+    min-inline-size: 85.375rem;
+}
+
+.runningPanel {
+    grid-area: side;
+}
+
+.map {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}

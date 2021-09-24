@@ -1,0 +1,55 @@
+.carsetting {
+    display: grid;
+    grid-template-columns: 1fr 38.125rem;
+    background: var(--white);
+    position: absolute;
+    margin-inline-start: 2.6875rem; 
+    margin-inline-end: 2.6875rem; 
+    inset-block-start: 1.75rem;  
+    border-radius: .75rem;
+    display: none;
+}
+
+.carsetting-sidemenu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;  
+}
+
+.carsetting-content {
+    padding: 1.5rem;  
+    background: var(--gray30);
+}
+
+.carsetting-exit {
+    inline-size: 3.5rem;
+    block-size: 3.5rem;
+    cursor: pointer;
+}
+
+.carsetting-exit i {
+    font-size: 3.5rem;
+}
+
+
+.quickControl-title {
+    font: var(--button-base);
+    margin-block-end: 1rem;
+}
+
+.quickControl-h2 {
+    font: var(--button-toggle);
+    margin-block-start: 3rem;
+}
+
+.quickControl .button {
+    margin-block-start: 1.25rem;
+}
+
+.carsetting-lock {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    display: none;
+}

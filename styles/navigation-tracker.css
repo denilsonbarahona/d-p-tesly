@@ -1,0 +1,54 @@
+.navigation-tracker {
+    background: var(--gray30);
+    border-radius: 0.8rem;
+    position: absolute;
+    margin-block-start: 0.75rem;
+    overflow-x: hidden;
+    display: none;
+    inline-size: 100%;
+}
+
+.navigation-tracker p {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-tracker-distance {
+    font: var(--tracker-distance);
+}
+
+.navigation-tracker-action ,
+.battery-info {
+    font: var(--button-base);
+    color: var(--gray20);
+}
+
+.navigation-tracker_list { 
+    list-style: none; 
+    padding: 0;
+}
+
+.navigation-tracker_list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+    padding-inline-start: 1.5rem;
+}
+
+.navigation-tracker_list .navigation-tracker-info {
+    display: flex;
+    align-items: center;
+    gap: 1.6875rem;
+}
+
+.charger-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.charger-info img {
+    vertical-align: middle;
+}

@@ -1,0 +1,31 @@
+.bottom-nav {
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    justify-items: center;
+    background: var(--black);
+}
+
+.bottom-nav-temperature {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bottom-nav-temperature span {
+    font: var(--bottom-temperature);
+    color: var(--gray10);
+}
+
+.bottom-option { 
+    flex: 1;
+    padding: 1.175rem;
+    padding: 1.175rem;
+    position: relative;
+}
+
+.bottom-nav-temperature span::after {
+    content: "°";
+    position: absolute;
+    color: var(--gray50);
+}
+

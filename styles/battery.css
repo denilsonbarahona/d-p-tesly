@@ -1,0 +1,26 @@
+
+.battery {
+    inline-size: 3.75rem;
+    block-size: 1.25rem;
+    box-sizing: border-box;
+    padding: 0;
+    border: 2px solid black;        
+    position: relative; 
+}
+
+.battery::after {
+    content: "";
+    block-size: .5rem;
+    inline-size: .1875rem;
+    background: var(--black);
+    position: absolute;
+    inset-block-start: calc(50% - .25rem);
+    inset-inline-end: -.4rem;
+}
+
+.battery-percentage {
+    margin: 0;
+    inline-size: 100%;
+    block-size: 100%;
+    background: var(--green);
+}

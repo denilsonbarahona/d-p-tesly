@@ -1,0 +1,36 @@
+.map-header {
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 2rem;
+    padding-inline-end: 2rem;
+
+    align-items: center;
+    padding-block-start: 1rem;
+    padding-block-end: 1rem; 
+    position: relative;
+}
+
+.map-header i {
+    font-size: 2rem;
+}
+
+.map-header p {
+    font: var(--header-info);
+}
+
+.header-status {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.map {
+    position: relative;
+}
+
+.map-container {
+    inline-size: 100%; 
+    block-size: 100%; 
+    position: absolute;
+}
+

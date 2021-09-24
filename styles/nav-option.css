@@ -1,0 +1,16 @@
+.nav-option { 
+    text-decoration: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font: var(--button-base);
+    color: var(--gray20);
+}
+
+.nav-option i {
+   font-size: 2rem;
+}
+
+.nav-option.is-selected{
+    color: var(--black);
+}

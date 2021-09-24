@@ -1,0 +1,20 @@
+@import './navigation-tracker.css';
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font: var(--navigator-header);
+    color: var(--gray20);
+    cursor: pointer;
+}
+
+.navigation-container i {
+    font-size: 2rem;
+}
+
+.navigation-container .container-header{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}

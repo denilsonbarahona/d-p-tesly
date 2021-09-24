@@ -1,0 +1,9 @@
+
+@import "./navigation-container.css";
+
+.autoInfoContainer {
+    inline-size: 21.625rem; 
+    position: relative;
+    margin-inline-start: 2.6875rem;
+    margin-block-start: .75rem;
+}

@@ -1,0 +1,51 @@
+
+.runningPanel-slider_header {
+    display: flex; 
+    margin-block-end: 2rem;
+}
+
+.runningPanel-slider_header >* { 
+    flex: 1; 
+    text-align: center;
+    margin: 0;
+}
+
+.runningPanel-Distance__container {
+    font: var(--SliderValue);
+}
+
+.distanceItem {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.distanceItem span {
+    font: var(--navigator-header);
+}
+
+
+.runningPanel-Distance__container {
+    
+    display: flex;
+    gap: 5rem;
+}
+
+.runningPanel-slider .container-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.runningPanel-distance {
+    align-self: center;
+}
+
+.runningPanel-slider hr {    
+    inline-size: 100%;
+}
+
+.slider-last-charge {
+    text-align: center;
+    margin: 0;
+}

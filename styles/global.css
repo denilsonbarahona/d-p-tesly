@@ -1,0 +1,28 @@
+:root {
+    --font-family: 'Montserrat', sans-serif;
+    --white:#fff;
+    --gray10:#DBDBDB;
+    --gray20:rgba(0,0,0,.50);
+    --gray30:#F0F0F0;
+    --gray40:rgba(0,0,0,.20); 
+    --gray50:rgba(255,255,255,.40);
+    --blue10: #007BE4;
+    --black:#000;
+    --green: #25CB55;
+    --button-base: 500 1.25rem/1.5rem var(--font-family);
+    --button-toggle: 500 1.62rem/1.5rem var(--font-family);
+    --bottom-temperature: 500 2rem/2.43rem var(--font-family);
+    --navigator-header: 600 .75rem/1.2rem var(--font-family);
+    --tracker-distance: 400 1.25rem/1.5rem var(--font-family);
+    --running-gear: 600 1rem/1.18rem var(--font-family);
+    --header-info: 500 1rem/1.18rem var(--font-family);
+    --runningHeader: 500 5rem/6.093rem var(--font-family);
+    --SliderValue: 600 1.5rem/1.82875rem var(--font-family);
+}
+
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0; 
+    background: var(--black);
+}
