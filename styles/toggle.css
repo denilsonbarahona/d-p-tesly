@@ -1,0 +1,64 @@
+.toggle { 
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.toggle input[type="checkbox"] {
+    display: none; 
+}
+
+.toggle-container {
+    inline-size: 7.5rem; 
+    cursor: pointer;
+    block-size: 3.25rem;
+    padding: .25rem; 
+    position: relative;
+    border-radius: 5rem; 
+    transition: .3s ease-in-out background-color;
+}
+
+.toggle-switch { 
+    inline-size: 3.25rem;
+    position: absolute;
+    inset-inline-end: calc(100% - 3.5rem);
+    block-size: 3.25rem;
+    background: var(--white);
+    border-radius: 50%; 
+    transition: inset-inline-end .3s;
+    /* animation: switchOn .5s ease-in-out;/* timing-function delay iteration-count direction fill-mode;*/ 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.toggle-text label {
+    font: var(--button-toggle);   
+    cursor: pointer;  
+    user-select: none;
+}
+
+.toggle input[type="checkbox"]:checked 
+~ .toggle-container {
+    background-color: var(--blue10);
+}
+
+
+.toggle input[type="checkbox"]:not(checked) 
+~ .toggle-container {
+    background: var(--gray10);
+}
+
+.toggle input[type="checkbox"]:checked
+~ .toggle-container 
+.toggle-switch { 
+    inset-inline-end: .25rem;
+}
+
+
+/*  @-webkit-keyframes switchOn {
+    from {
+        inset-inline-end: calc(100% - 3.5rem);
+      }
+    to {
+        inset-inline-end: .25rem;
+    }
+}  */ 

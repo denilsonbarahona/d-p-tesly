@@ -1,0 +1,47 @@
+@import "./battery.css";
+@import "./slider.css";
+
+.runningPanel {
+    background: var(--gray30);
+    color: var(--gray20);
+    padding-inline-end: 1.5rem;
+    padding-inline-start: 1.5rem;
+    font: var(--running-gear);
+}
+
+.runningPanel p {
+    margin: 0;
+}
+
+.runningPanel .important {
+    color: var(--black) !important;
+}
+
+.runningPanel-dashboard {
+    margin-block-start: 2.5rem;
+}
+
+.runningPanel-info {
+    display: flex;
+    justify-content: space-between;
+    margin-block-end: .5rem;
+}
+
+
+.runningPanel-speed {
+    display: flex;
+    justify-content: center;    
+    transform: translateX(-1.5rem); 
+    font: var(--runningHeader);
+}
+
+.runningPanel-gearShift {
+    display: flex;
+    gap: .75rem;
+    font: var(--running-gear);
+}
+
+.runningPanel-charge{
+    display: flex;
+    gap: 0.625rem;
+}

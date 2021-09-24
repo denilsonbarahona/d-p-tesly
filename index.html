@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Tesla Model 3 Screen</title>
+</head>
+<body>
+
+    <div class="layout">
+
+        <div class="runningPanel">
+            <div class="runningPanel-dashboard">
+                <div class="runningPanel-speed important"><p>63</p></div>
+                <div class="runningPanel-info">
+                    <div class="runningPanel-gearShift">
+                        <p>P</p><p>R</p><p>N</p><p class="important">D</p>
+                    </div>
+                    <div class="runningPanel-KM">
+                       <span>KM/H</span> 
+                    </div>
+                    <div class="runningPanel-charge">
+                        <p class="important">362 km</p>
+                        <div class="battery">
+                            <div class="battery-percentage"></div>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+            </div>
+            <div class="visual-driving">
+                <div class="visual-driving--wheel">
+                    <i class="icon-steering-wheel-small" aria-hidden="true"></i>
+                </div>
+                <img src="./img/car.png" width="380" height="231" alt="coche en movimiento">
+
+                <div class="visual-driving--route">
+                   60
+                </div>
+            </div>
+    
+            <div class="runningPanel-slider">
+                <scroll-container class="scroll-container">
+        
+                    <scroll-page id="slide1" class="scroll-page">
+                        
+                        <div class="scroll-page--container">
+                            <div class="container-container">
+                        
+                                <div class="runningPanel-slider_header">
+                                    <h2 class="slider-time important">Since 1:34 PM</h2>
+                
+                                    <button class="button">
+                                        <div class="button-dot-container">
+                                            <div class="button-dot"></div>
+                                            <div class="button-dot"></div>
+                                            <div class="button-dot"></div>
+                                        </div>
+                                    </button>
+                                </div>
+                
+                                <div class="runningPanel-distance">
+                                    <div class="runningPanel-Distance__container">
+                                        <div class="distanceItem">
+                                            <p class="value">11.9</p>                            
+                                            <span>km</span>
+                                        </div>
+                                        <div class="distanceItem">
+                                            <p class="value">16</p>                            
+                                            <span>min</span>
+                                        </div>
+                                        <div class="distanceItem">
+                                            <p class="value">11</p>                            
+                                            <span>Wh/km</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <h2 class="slider-last-charge">Since last charge</h2>
+                            </div>
+            
+                        </div>
+                        
+                    </scroll-page>
+        
+                    <scroll-page id="slide2" class="scroll-page">
+        
+                        <div class="scroll-page--container">
+                            <div class="container-container">                        
+                                <div class="runningPanel-slider_header">
+                                    <h2 class="slider-time important">Since 1:34 PM</h2>
+                
+                                    <button class="button">
+                                        <div class="button-dot-container">
+                                            <div class="button-dot"></div>
+                                            <div class="button-dot"></div>
+                                            <div class="button-dot"></div>
+                                        </div>
+                                    </button>
+                                </div>
+                
+                                <div class="runningPanel-distance">
+                                    <div class="runningPanel-Distance__container">
+                                        <div class="distanceItem">
+                                            <p class="value">11.9</p>                            
+                                            <span>km</span>
+                                        </div>
+                                        <div class="distanceItem">
+                                            <p class="value">16</p>                            
+                                            <span>min</span>
+                                        </div>
+                                        <div class="distanceItem">
+                                            <p class="value">11</p>                            
+                                            <span>Wh/km</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <h2 class="slider-last-charge">Since last charge</h2>
+                            </div>
+                        </div>  
+                    </scroll-page>
+        
+                  
+                    <scroll-page id="slide3" class="scroll-page">
+                        <div class="scroll-page--container">
+                            <div class="container-container">                        
+                                <div class="runningPanel-slider_header">
+                                    <h2 class="slider-time important">Since 1:34 PM</h2>
+                
+                                    <button class="button">
+                                        <div class="button-dot-container">
+                                            <div class="button-dot"></div>
+                                            <div class="button-dot"></div>
+                                            <div class="button-dot"></div>
+                                        </div>
+                                    </button>
+                                </div>
+                
+                                <div class="runningPanel-distance">
+                                    <div class="runningPanel-Distance__container">
+                                        <div class="distanceItem">
+                                            <p class="value">11.9</p>                            
+                                            <span>km</span>
+                                        </div>
+                                        <div class="distanceItem">
+                                            <p class="value">16</p>                            
+                                            <span>min</span>
+                                        </div>
+                                        <div class="distanceItem">
+                                            <p class="value">11</p>                            
+                                            <span>Wh/km</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <h2 class="slider-last-charge">Since last charge</h2>
+                            </div>
+                        </div>  
+                    </scroll-page>
+        
+                </scroll-container>
+    
+                <div class="scroll-bullet-list">
+                    <a class="scroll-bullet" href="#slide1"></a>
+                    <a class="scroll-bullet" href="#slide2"></a>
+                    <a class="scroll-bullet" href="#slide3"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="map">
+            <div class="map-container" id="map" >
+                
+            </div>
+            <header class="map-header">
+                <div class="header-status">
+                    <i class="icon-lock" aria-hidden="true"></i>
+                    <p>10:21 AM</p>
+                    <p>17 C</p>
+                    <i class="icon-Tesla" aria-hidden="true"></i>
+                </div>
+
+                <div class="header-signal">
+                    <i class="icon-bluetooth" aria-hidden="true"></i>
+                    <i class="icon-cell-signal" aria-hidden="true"></i>
+                </div>
+            </header>
+            
+            <div class="autoInfoContainer">
+
+                <div class="float-container navigation-container">
+                    <div class="container-header">
+                        <i class="icon-navigateicon" aria-hidden="true"></i> 
+                        <h2>Navigate</h2>      
+                    </div>
+                    <i class="icon-arrow-rigth" aria-hidden="true"></i> 
+                </div>
+        
+                <div class="navigation-tracker">
+                    <ul class="navigation-tracker_list">
+                        <li>
+                            <div class="navigation-tracker-info">
+                                <img src="./img/exit.png" width="48" height="48" alt="exit">
+                                <div class="list-description">
+                                    <p class="navigation-tracker-distance"> 1.5 mi </p>
+                                    <p class="navigation-tracker-action">Exit 87</p>
+                                </div>
+                            </div>                
+                            <img src="./img/audio.png" width="48" height="48" alt="audio de la navegación">
+                        </li>
+                        <li>
+                            <div class="navigation-tracker-info">
+                                <img src="./img/highway.png" width="48" height="48" alt="Highway">
+                                <div class="list-description">
+                                    <p class="navigation-tracker-distance"> .75 mi </p>
+                                    <p class="navigation-tracker-action">Highway 400</p>
+                                </div>
+                            </div>                
+                            
+                        </li>
+                        <li>
+                            <div class="navigation-tracker-info">
+                                <img src="./img/cross.png" width="48" height="48" alt="cross">
+                                <div class="list-description">
+                                    <p class="navigation-tracker-distance"> 18 mi </p>
+                                    <p class="navigation-tracker-action">Mansell Rd</p>
+                                </div>
+                            </div>                                
+                        </li>
+                        <li>
+                            <div class="navigation-tracker-info">
+                                <img src="./img/pin.png" width="48" height="58" alt="pin">
+                                <div class="list-description">
+                                    <p class="navigation-tracker-distance"> 500ft </p>
+                                    <p class="navigation-tracker-action">Electricity Charger</p>
+                                    <div class="charger-info">
+                                        <img src="./img/battery.png" width="50" height="20" alt="battery">
+                                        <p class="battery-info">78%</p>
+                                    </div>
+                                </div>
+                            </div>                                
+                        </li>
+                    </ul>
+            
+                    <button class="button is-word is-selected">
+                        CANCEL TRIP
+                    </button>
+                </div>
+            
+            
+            </div>
+
+            <div class="carsetting">
+                <div class="carsetting-sidemenu">
+                    <a href="#" id="quick-control" class="nav-option is-selected">
+                        <i class="icon-quick-controls"></i>
+                        <span>Quick Controls</span>
+                    </a>
+                    <a href="#" class="nav-option">
+                        <i class="icon-lights"></i>
+                        <span>Lights</span>
+                    </a>
+                    <a href="#" id="locks" class="nav-option">
+                        <i class="icon-quick-controls"></i>
+                        <span>Locks</span>
+                    </a>
+                    <a href="#" class="nav-option">
+                        <i class="icon-quick-controls"></i>
+                        <span>Display</span>
+                    </a>
+                    <a href="#" class="nav-option">
+                        <i class="icon-quick-controls"></i>
+                        <span>Driving</span>
+                    </a>
+                    <a href="#" class="nav-option">
+                        <i class="icon-quick-controls"></i>
+                        <span>Autopilot</span>
+                    </a>
+                    <a href="#" class="nav-option">
+                        <i class="icon-quick-controls"></i>
+                        <span>Safety & Security</span>
+                    </a>
+                    <a href="#" class="nav-option">
+                        <i class="icon-quick-controls"></i>
+                        <span>Service</span>
+                    </a>
+                    <button class="button is-word is-bordered">
+                        <i class="icon-glovebox" aria-hidden="true"></i>
+                        glovebox
+                    </button>
+                </div>
+                <div class="carsetting-content">
+                    <div class="carsetting-exit">
+                        <i class="icon-exit" aria-hidden="true"></i>
+                    </div>
+                    <div class="quickControl">
+                        
+                        <p class="quickControl-title">Headlights</p>
+                        <div class="tabList" id="headlihgts"  role="tablist">
+                            <div class="tab is-selected" parent="headlihgts" role="tab" aria-selected="true">
+                                <div class="tab-content">
+                                    Off
+                                </div>
+                            </div>
+                            <div class="tab" parent="headlihgts" role="tab">
+                                <div class="tab-content">
+                                    Parking
+                                </div>
+                            </div>
+                            <div class="tab" parent="headlihgts" role="tab">
+                                <div class="tab-content">
+                                    On
+                                </div>
+                            </div>
+                            <div class="tab" parent="headlihgts" role="tab">
+                                <div class="tab-content">
+                                    Auto
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2 class="quickControl-h2">Interior</h2>
+                        <p class="quickControl-title">Dome Lights</p>
+                        <div class="tabList" id="Lights" role="tablist">
+                            <div class="tab is-selected" parent="Lights" role="tab" aria-selected="true">
+                                <div class="tab-content">
+                                    Off
+                                </div>
+                            </div>
+                            <div class="tab" parent="Lights" role="tab">
+                                <div class="tab-content">
+                                    On
+                                </div>
+                            </div>
+                            <div class="tab" parent="Lights" role="tab">
+                                <div class="tab-content">
+                                    Auto
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="button is-word is-rounded">
+                            Ambient Lights
+                        </button>
+                    </div>
+
+                    <div class="carsetting-lock">
+                        <div class="toggle" role="switch" aria-checked="false" >
+                            <input type="checkbox" id="check-toggle" name="check-toggle">
+                            <div class="toggle-container" aria-labelledby="check-toggle">            
+                                <div class="toggle-switch"></div>
+                            </div>
+                            <div class="toggle-text">
+                                <label for="check-toggle">Walk Up Unlock</label>
+                            </div>
+                        </div>
+                    
+                        <div class="toggle" role="switch" aria-checked="false" >
+                            <input type="checkbox" id="check-toggle-walkUp" name="check-toggle-walkUp">
+                            <div class="toggle-container" aria-labelledby="check-toggle-walkUp">            
+                                <div class="toggle-switch"></div>
+                            </div>
+                            <div class="toggle-text">
+                                <label for="check-toggle-walkUp">Walk Up Unlock</label>
+                            </div>
+                        </div>
+
+                        <div class="toggle" role="switch" aria-checked="false" >
+                            <input type="checkbox" id="check-toggle-Child" name="check-toggle-Child">
+                            <div class="toggle-container" aria-labelledby="check-toggle-Child">            
+                                <div class="toggle-switch"></div>
+                            </div>
+                            <div class="toggle-text">
+                                <label for="check-toggle-Child">Child Protection Lock</label>
+                            </div>
+                        </div>
+
+                        <div class="toggle" role="switch" aria-checked="false" >
+                            <input type="checkbox" id="check-toggle-Unlock" name="check-toggle-Unlock">
+                            <div class="toggle-container" aria-labelledby="check-toggle-Unlock">            
+                                <div class="toggle-switch"></div>
+                            </div>
+                            <div class="toggle-text">
+                                <label for="check-toggle-Unlock">Unlock on Park</label>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <button class="button is-floating">
+                <i class="icon-gear" aria-hidden="true"></i>
+            </button>
+        </div>
+
+        <footer class="footer">
+            <nav class="bottom-nav" aria-label="botton navigation">
+                <div class="bottom-option">
+                    <button class="button" id="btn-setting" aria-pressed="false"  aria-label="opciones del auto" title="opciones del auto">
+                        <i class="icon-model3" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="bottom-option">
+                    <button class="button" aria-pressed="false"  title="opciones del aire acondicionado" aria-label="opciones del aire acondicionado">
+                        <i class="icon-defrost" aria-hidden="true"></i>
+                    </button>
+                </div>        
+                <div class="bottom-option">
+                    <button class="button" aria-pressed="false"  title="opciones de la calefacción" aria-label="opciones de la calefacción">
+                        <i class="icon-heater" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="bottom-option">
+                    <button class="button" aria-pressed="false"  title="opciones del asiento derecho" aria-label="opciones del asiento derecho">
+                        <i class="icon-seat-rigth" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="bottom-option" >
+                    <button class="button" aria-pressed="false"  title="opciones de la ventiladora" aria-label="opciones de la ventiladora">
+                        <i class="icon-fan" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="bottom-nav-temperature">
+                    <button class="button" aria-pressed="false"  title="reducir la temperatura" aria-label="reducir la temperatura">
+                        <i class="icon-arrow-left" aria-hidden="true"></i>
+                    </button>
+                    <span> 20 </span>
+                    <button class="button" aria-pressed="false"  title="aumentar la temperatura" aria-label="aumentar la temperatura">
+                        <i class="icon-arrow-rigth" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="bottom-option">
+                    <button class="button" aria-pressed="false"  title="opciones del asiento izquierdo" aria-label="opciones del asiento izquierdo">
+                        <i class="icon-seat-left" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="bottom-option">
+                    <button class="button" aria-pressed="false"  title="opciones de la musica" aria-label="opciones de la musica">
+                        <i class="icon-music" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="bottom-option">
+                    <button class="button" aria-pressed="false"  title="opciones de acceso al celular" aria-label="opciones de acceso al celular">
+                        <i class="icon-phone" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="bottom-option">
+                    <button class="button" aria-pressed="false"  title="opciones del volumen" aria-label="opciones del volumen">
+                        <i class="icon-volume" aria-hidden="true"></i>
+                    </button>
+                </div>   
+            </nav>
+        </footer>
+    </div>
+
+
+
+<!--  -->
+
+<!-- -->
+
+
+<script src="./js/index.js" type="module"></script> 
+<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfmaiKCokKcoVwO9tbaVkuh399SRkZG6Y&libraries=drawing&callback=initMap"> </script>   
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfmaiKCokKcoVwO9tbaVkuh399SRkZG6Y&callback=initMap"></script>
+<script src="./js/map.js"></script>
+
+</body>
+</html>

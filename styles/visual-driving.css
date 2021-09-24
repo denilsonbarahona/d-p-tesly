@@ -1,0 +1,29 @@
+.visual-driving {
+    position: relative;
+}
+
+.visual-driving--wheel {
+    inset-block-start: 1.5rem;  
+    inline-size: 3rem;
+    block-size: 3rem; 
+    position: absolute;
+}
+
+.visual-driving--wheel i {
+    font-size: 3rem;
+    color:var(--blue10);  
+}
+
+.visual-driving--route {
+    position: absolute;
+    inset-block-start: 1.5rem;
+    inset-inline-end: 1.5rem;
+    inline-size: 2.5rem;
+    block-size: 2.5rem;
+    box-sizing: border-box;
+    border: 3px solid var(--gray20);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
